@@ -70,7 +70,7 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="bookmark" element={<BookMark />} />
             <Route path="login" element={<LogIn />} />
-            <Route path="*" element={<NoMatch />} />
+            {/* <Route path="*" element={<NoMatch />} /> */}
           </Route>
         </Routes>
         ;{/* <Routes> */}
